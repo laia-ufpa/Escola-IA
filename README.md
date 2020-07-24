@@ -1,2 +1,2 @@
 # escola-ia
-É um Web App destinado à monitoria do redimento escolar dos alunos com base em Inteligêcia Artificial.
+É um Web App destinado à monitoria do rendimento escolar dos alunos com base em Inteligêcia Artificial.
