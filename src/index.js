@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+
 import App from './App';
 import Header from './Header';
 import Footer from './Footer';
+import AlunoCadastro from './AlunoCadastro';
+
+
+
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap'
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
 
 import * as serviceWorker from './serviceWorker';
 
@@ -17,10 +25,13 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact={true} component={App} />
+      <Route path="/aluno" component={AlunoCadastro} />
+    </Switch>
+  </BrowserRouter>
+  , document.getElementById('root')
 );
 
 ReactDOM.render(
