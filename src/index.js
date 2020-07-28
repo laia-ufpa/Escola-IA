@@ -1,20 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
+import 'bootstrap/dist/js/bootstrap'
+import 'bootstrap/dist/css/bootstrap.css';
 
 import App from './App';
-import Header from './Header';
-import Footer from './Footer';
-import AlunoCadastro from './AlunoCadastro';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import StudentRegister from './Components/StudentRegister';
+import Team from './Components/Team';
 
 
 
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap'
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-
-
 import * as serviceWorker from './serviceWorker';
+
+
+
+
+
+
 
 
 ReactDOM.render(
@@ -28,7 +34,8 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" exact={true} component={App} />
-      <Route path="/aluno" component={AlunoCadastro} />
+      <Route path="/aluno" component={StudentRegister} />
+      <Route path="/time" exact={true} component={Team} />
     </Switch>
   </BrowserRouter>
   , document.getElementById('root')

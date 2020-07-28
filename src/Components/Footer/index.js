@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.png'
+import logo from '../../logo.png'
+
 
 class Footer extends Component {
     render() {
@@ -13,7 +14,7 @@ class Footer extends Component {
                     </div>
                     <div className="col-12 col-md mt-3">
                         <h5>Sobre</h5>
-                        <p>Time</p>
+                        <a href="/time">Time</a>
                     </div>
                 </div>
             </footer >
