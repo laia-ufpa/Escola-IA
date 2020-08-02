@@ -11,8 +11,6 @@ import Footer from './Components/Footer';
 import StudentRegister from './Components/StudentRegister';
 import Team from './Components/Team';
 
-
-
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 
