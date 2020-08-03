@@ -2,7 +2,7 @@ import React from 'react';
 import LocationCityIcon from '@material-ui/icons/LocationCity';
 import PersonIcon from '@material-ui/icons/Person';
 
-function App() {
+function Home() {
   return (
     <main className="container">
       <div className="row mt-5">
@@ -29,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

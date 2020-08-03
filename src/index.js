@@ -5,20 +5,14 @@ import './index.css';
 import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap.css';
 
-import App from './App';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import StudentRegister from './Components/StudentRegister';
-import Team from './Components/Team';
+import Header from './components/Header';
+import Home from "./pages/Home";
+import Footer from './components/Footer';
+import StudentRegister from './pages/StudentRegister';
+import Team from './pages/Team';
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
-
-
-
-
-
-
 
 
 ReactDOM.render(
@@ -31,8 +25,8 @@ ReactDOM.render(
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact={true} component={App} />
-      <Route path="/aluno" component={StudentRegister} />
+      <Route path="/" exact={true} component={Home} />
+      <Route path="/aluno" exact={true} component={StudentRegister} />
       <Route path="/time" exact={true} component={Team} />
     </Switch>
   </BrowserRouter>
@@ -40,16 +34,9 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Footer />
-  </React.StrictMode>,
+  <Footer />,
   document.getElementById('footer')
 );
-
-
-
-
-
 
 
 // If you want your app to work offline and load faster, you can change

@@ -1,6 +1,6 @@
 import React from 'react';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import SendIcon from '@material-ui/icons/Send';
+
 
 const Select = () => {
     let states = ["Acre",
@@ -76,7 +76,7 @@ function StudentRegister() {
                         <input type="text" className="form-control" id="inputZip" />
                     </div>
                 </div>
-                <button type="submit" className="btn btn-primary">Enviar <SendIcon style={{ fontSize: 20 }} /> </button>
+                <button type="submit" className="btn btn-primary">Enviar</button>
             </form>
         </div>
     );
