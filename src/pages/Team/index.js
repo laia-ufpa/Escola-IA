@@ -4,6 +4,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import lattes from './lattes.png'
 import logo from '../../images/logo.png'
 
+
 function Team() {
     return (
         <div className="container text-center">
@@ -17,8 +18,7 @@ function Team() {
                             alt="Sample avatar" width="150" />
                     </div>
                     <h5 className="font-weight-bold mt-4 mb-3">Angélica Drielly</h5>
-                    <p className="text-uppercase blue-text"><strong>Curso</strong></p>
-                    <p className="grey-text">Descrição</p>
+                    <p className="text-uppercase blue-text"><strong>Eng. Biomédica</strong></p>
                     <ul className="list-unstyled mb-0">
                         <a className="p-2 fa-lg fb-ic">
                             <GitHubIcon />
@@ -37,8 +37,7 @@ function Team() {
                             alt="Sample avatar" width="150" />
                     </div>
                     <h5 className="font-weight-bold mt-4 mb-3">Filipe Cavalcanti</h5>
-                    <p className="text-uppercase blue-text"><strong>Curso</strong></p>
-                    <p className="grey-text">Descrição</p>
+                    <p className="text-uppercase blue-text"><strong>Eng. Elétrica</strong></p>
                     <ul className="list-unstyled mb-0">
                         <a className="p-2 fa-lg fb-ic">
                             <GitHubIcon />
@@ -58,7 +57,6 @@ function Team() {
                     </div>
                     <h5 className="font-weight-bold mt-4 mb-3">Gabriela Souza</h5>
                     <p className="text-uppercase blue-text"><strong>Eng. da Computação</strong></p>
-                    <p className="grey-text">Descrição</p>
                     <ul className="list-unstyled mb-0">
                         <a className="p-2 fa-lg fb-ic">
                             <GitHubIcon />
@@ -78,7 +76,6 @@ function Team() {
                     </div>
                     <h5 className="font-weight-bold mt-4 mb-3">Rafael Pompeu</h5>
                     <p className="text-uppercase blue-text"><strong>Eng. da Computação</strong></p>
-                    <p className="grey-text">Descrição</p>
                     <ul className="list-unstyled mb-0">
                         <a className="p-2 fa-lg fb-ic">
                             <GitHubIcon />
@@ -93,8 +90,6 @@ function Team() {
                 </div>
             </div>
         </div>
-
-
     );
 }
 

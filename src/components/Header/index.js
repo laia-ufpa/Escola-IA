@@ -49,9 +49,7 @@ function Header() {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">
-                    <Button name="Sobre" route="/" />
-                </ul>
+                <ul className="navbar-nav mr-auto"></ul>
                 <div className="d-flex flex-row bd-highlight mb-3">
                     <button type="button" className="btn btn-dark" onClick={modaLogin}>Login</button>
                 </div>
